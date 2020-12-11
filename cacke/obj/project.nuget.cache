@@ -1,16 +1,30 @@
 {
   "version": 2,
-  "dgSpecHash": "mtt7FCGkvM8ajLZYAKfUFRRwrHbeLWqyeJNNCKKiLqUFw1WuFVcnYChIvmP09tD6puVAW0ucgJcBVCbotTCIHQ==",
+  "dgSpecHash": "ZwUSGq2wPiRdUaz+1Ogqk1WLh+pt2X5lDvI8a83m8K+NAFecWWaDgXpUYu5ryGTb46wnt6CGtF58qDwEEYAvFw==",
   "success": true,
-  "projectFilePath": "/Users/ahmidimohamed/Projects/cacke/cacke/cacke.csproj",
+  "projectFilePath": "/Users/ahmidimohamed/Projects/cacke/cackes_app/cacke/cacke.csproj",
   "expectedPackageFiles": [
+    "/Users/ahmidimohamed/.nuget/packages/microcharts.forms/0.6.1/microcharts.forms.0.6.1.nupkg.sha512",
     "/Users/ahmidimohamed/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/Users/ahmidimohamed/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
     "/Users/ahmidimohamed/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
+    "/Users/ahmidimohamed/.nuget/packages/skiasharp/1.59.1/skiasharp.1.59.1.nupkg.sha512",
+    "/Users/ahmidimohamed/.nuget/packages/skiasharp.views.forms/1.59.1/skiasharp.views.forms.1.59.1.nupkg.sha512",
     "/Users/ahmidimohamed/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
     "/Users/ahmidimohamed/.nuget/packages/xam.plugins.forms.imagecircle/3.0.0.4/xam.plugins.forms.imagecircle.3.0.0.4.nupkg.sha512",
     "/Users/ahmidimohamed/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
     "/Users/ahmidimohamed/.nuget/packages/xamarin.forms/4.6.0.1141/xamarin.forms.4.6.0.1141.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microcharts.Forms 0.6.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microcharts.Forms",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
 }

@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{61D41A38-9BB7-4347-9E33-BF1313860931}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="cacke/List_Users.xaml">
+    <Files>
+      <File FileName="cacke/List_Users.xaml" Line="21" Column="74" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="cacke" expanded="True">
+            <Node name="cacke" expanded="True">
+              <Node name="List_Users.xaml" selected="True" />
+            </Node>
+            <Node name="cacke.Android" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.cacke.Android PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

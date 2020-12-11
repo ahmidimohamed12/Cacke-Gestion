@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ahmidimohamed/Projects/cacke/cacke.Android/cacke.Android.csproj": {}
+    "/Users/ahmidimohamed/Projects/cacke/cackes_app/cacke.Android/cacke.Android.csproj": {}
   },
   "projects": {
-    "/Users/ahmidimohamed/Projects/cacke/cacke.Android/cacke.Android.csproj": {
+    "/Users/ahmidimohamed/Projects/cacke/cackes_app/cacke.Android/cacke.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ahmidimohamed/Projects/cacke/cacke.Android/cacke.Android.csproj",
+        "projectUniqueName": "/Users/ahmidimohamed/Projects/cacke/cackes_app/cacke.Android/cacke.Android.csproj",
         "projectName": "cacke.Android",
-        "projectPath": "/Users/ahmidimohamed/Projects/cacke/cacke.Android/cacke.Android.csproj",
+        "projectPath": "/Users/ahmidimohamed/Projects/cacke/cackes_app/cacke.Android/cacke.Android.csproj",
         "packagesPath": "/Users/ahmidimohamed/.nuget/packages/",
-        "outputPath": "/Users/ahmidimohamed/Projects/cacke/cacke.Android/obj/",
+        "outputPath": "/Users/ahmidimohamed/Projects/cacke/cackes_app/cacke.Android/obj/",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
@@ -26,8 +26,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "/Users/ahmidimohamed/Projects/cacke/cacke/cacke.csproj": {
-                "projectPath": "/Users/ahmidimohamed/Projects/cacke/cacke/cacke.csproj"
+              "/Users/ahmidimohamed/Projects/cacke/cackes_app/cacke/cacke.csproj": {
+                "projectPath": "/Users/ahmidimohamed/Projects/cacke/cackes_app/cacke/cacke.csproj"
               }
             }
           }
@@ -36,6 +36,10 @@
       "frameworks": {
         "monoandroid90": {
           "dependencies": {
+            "Microcharts.Forms": {
+              "target": "Package",
+              "version": "[0.6.1, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.3, )"
@@ -56,14 +60,14 @@
         }
       }
     },
-    "/Users/ahmidimohamed/Projects/cacke/cacke/cacke.csproj": {
+    "/Users/ahmidimohamed/Projects/cacke/cackes_app/cacke/cacke.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ahmidimohamed/Projects/cacke/cacke/cacke.csproj",
+        "projectUniqueName": "/Users/ahmidimohamed/Projects/cacke/cackes_app/cacke/cacke.csproj",
         "projectName": "cacke",
-        "projectPath": "/Users/ahmidimohamed/Projects/cacke/cacke/cacke.csproj",
+        "projectPath": "/Users/ahmidimohamed/Projects/cacke/cackes_app/cacke/cacke.csproj",
         "packagesPath": "/Users/ahmidimohamed/.nuget/packages/",
-        "outputPath": "/Users/ahmidimohamed/Projects/cacke/cacke/obj/",
+        "outputPath": "/Users/ahmidimohamed/Projects/cacke/cackes_app/cacke/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ahmidimohamed/.config/NuGet/NuGet.Config"
@@ -90,6 +94,10 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "Microcharts.Forms": {
+              "target": "Package",
+              "version": "[0.6.1, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
