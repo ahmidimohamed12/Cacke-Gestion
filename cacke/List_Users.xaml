@@ -2,35 +2,38 @@
 <ContentPage BackgroundColor="Red" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="cacke.List_Users">
     <ContentPage.Content>
         <StackLayout>
-            <StackLayout BackgroundColor="Red" HeightRequest="100" Orientation="Horizontal" >
-                
-            </StackLayout>
-            <ScrollView>
-            <Frame VerticalOptions="FillAndExpand" BackgroundColor="White"  CornerRadius="30" >
+            <Frame  VerticalOptions="FillAndExpand" BackgroundColor="White"  CornerRadius="30" >
                     <StackLayout  VerticalOptions="FillAndExpand">
-                                  <ListView>
+                                  <ListView  HasUnevenRows="True" x:Name="ls">
                                       <ListView.ItemTemplate>
                                           <DataTemplate>
-                                              <StackLayout>
-                                                  <!--
-                                                  <Label Text="{Binding username}"
+                                              <ViewCell>
+                                                <StackLayout HeightRequest="80"
+                                                             Orientation="Horizontal" >
+                                                  <Label Text="{Binding firstname}"
                                                          TextColor="Black"
                                                          FontAttributes="Bold"
-
+                                                         FontSize="20"
+                                                         Margin="20,0,0,0"
+                                                         VerticalOptions="Center"
                                                          />
-                                                  <Label
-                                                      Text="{Binding lastname}"
-                                                      TextColor="Black"
-                                                      FontAttributes="Bold"
-                                                      />
-                                                  -->
+                                                    
+                                                    <Label
+                                                        VerticalOptions="Center"
+                                                        Margin="30,0,0,0"
+                                                        Text="{Binding lastname}"
+                                                        TextColor="Black"
+                                                        FontAttributes="Bold"
+                                                        FontSize="20"
+                                                        />
                                               </StackLayout>
+                                              </ViewCell>
+                                              
                                           </DataTemplate>
                                       </ListView.ItemTemplate>
                                   </ListView>
                                 </StackLayout>
             </Frame>
-              </ScrollView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
