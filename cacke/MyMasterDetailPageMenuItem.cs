@@ -10,7 +10,7 @@ namespace cacke
     {
         public MyMasterDetailPageMenuItem()
         {
-            TargetType = typeof(MyMasterDetailPageDetail);
+            //TargetType = typeof(MyMasterDetailPageDetail);
         }
         public int Id { get; set; }
         public string Title { get; set; }

@@ -33,11 +33,11 @@ namespace cacke
             {
                 MenuItems = new ObservableCollection<MyMasterDetailPageMenuItem>(new[]
                 {
-                    new MyMasterDetailPageMenuItem { Id = 0, Title = "Home" },
-                    new MyMasterDetailPageMenuItem { Id = 1, Title = "List Benutzer" },
-                    new MyMasterDetailPageMenuItem { Id = 2, Title = "List Website" },
-                    new MyMasterDetailPageMenuItem { Id = 3, Title = "List Monteur" },
-                    new MyMasterDetailPageMenuItem { Id = 4, Title = "Logout" }
+                    new MyMasterDetailPageMenuItem { Id = 0, Title = "Home" ,TargetType =typeof(page_Home)},
+                    new MyMasterDetailPageMenuItem { Id = 1, Title = "List Benutzer",TargetType = typeof(List_Users) },
+                    new MyMasterDetailPageMenuItem { Id = 2, Title = "List Website",/*TargetType = typeof()*/ },
+                    new MyMasterDetailPageMenuItem { Id = 3, Title = "List Monteur",/*TargetType = typeof()*/},
+                    new MyMasterDetailPageMenuItem { Id = 4, Title = "Logout",/*TargetType = typeof()*/ }
                 });
             }
 
