@@ -37,9 +37,7 @@ namespace cacke
             name1.Text = f[0].firstname;
 
 
-
-            TapGestureRecognizer ev = new TapGestureRecognizer();
-
+            oncl(fr1, btn_click);
 
 
 
@@ -56,9 +54,9 @@ namespace cacke
         }
 
 
-        public void btn_click(object sender,EventArgs e)
+        public  async void btn_click(object sender,EventArgs e)
         {
-
+            await Navigation.PushModalAsync(new MainPage());
         }
     }
 }

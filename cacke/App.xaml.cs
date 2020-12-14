@@ -10,7 +10,7 @@ namespace cacke
         {
             InitializeComponent();
 
-            MainPage = new List_Users();
+            MainPage = new Logins();
         }
 
         protected override void OnStart()
