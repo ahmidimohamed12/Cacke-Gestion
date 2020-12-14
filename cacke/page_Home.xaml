@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage BackgroundColor="Red" xmlns:chart="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="cacke.page_Home">
+    <ContentPage.Content>
+
+        <StackLayout  >
+
+            <Frame Margin="0,50,0,0" CornerRadius="30" VerticalOptions="FillAndExpand" BackgroundColor="White">
+                <ScrollView>
+ <StackLayout>
+                    <chart:ChartView
+                        HeightRequest="100"
+                        x:Name="chart1"
+                    />
+                    <chart:ChartView
+                        HeightRequest="100"
+                        x:Name="chart2"
+                        />
+
+                    <StackLayout Margin="0,20,0,0" Orientation="Horizontal" HorizontalOptions="Center" >
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="110"/>
+                                <ColumnDefinition Width="110"/>
+                                <ColumnDefinition Width="110"/>
+
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="120" />
+                            </Grid.RowDefinitions>
+                            <Frame Grid.Column="0" Grid.Row="0" BorderColor="Red" >
+                                <StackLayout>
+                                    <Label
+                                        Text="Total Ec"
+                                        TextColor="Red"
+                                        FontAttributes="Bold"
+                                        HorizontalOptions="Center"
+                                        />
+                                    <Button
+                                        BackgroundColor="Red"
+                                        TextColor="White"
+                                        FontAttributes="Bold"
+                                        Text="200 $"
+                                        />
+                                </StackLayout>
+                            </Frame>
+                                 <Frame Grid.Column="1" Grid.Row="0" BorderColor="Red" >
+                                     <StackLayout>
+                                    <Label
+                                        Text="Reshnung"
+                                        TextColor="Red"
+                                        FontAttributes="Bold"
+                                        HorizontalOptions="Center"
+                                        />
+                                    <Button
+                                        BackgroundColor="Red"
+                                        TextColor="White"
+                                        FontAttributes="Bold"
+                                        Text="200 $"
+                                        />
+                                </StackLayout>
+                            </Frame>
+                                 <Frame Grid.Column="2" Grid.Row="0" BorderColor="Red" >
+                                     <StackLayout>
+                                    <Label
+                                        Text="Total Bar"
+                                        TextColor="Red"
+                                        FontAttributes="Bold"
+                                        HorizontalOptions="Center"
+                                        />
+                                    <Button
+                                        BackgroundColor="Red"
+                                        TextColor="White"
+                                        FontAttributes="Bold"
+                                        Text="100 $"
+                                        />
+                                </StackLayout>
+                            </Frame>
+                        </Grid>
+                    </StackLayout>
+
+                    <StackLayout Margin="0,30,0,0" Orientation="Horizontal" >
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="20" />
+                                <ColumnDefinition Width="120" />
+                                <ColumnDefinition Width="20"/>
+                                <ColumnDefinition Width="129" />
+
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="70" />
+                            </Grid.RowDefinitions>
+                            <DatePicker
+                                Grid.Column="1"
+                                Grid.Row="0"
+                                />
+                            <DatePicker
+                                
+                                Grid.Column="3"
+                                Grid.Row="0"
+                                />
+                            
+                        </Grid>
+
+
+                    </StackLayout>
+       <StackLayout Margin="0,20,0,0" Orientation="Horizontal" HorizontalOptions="Center" >
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="110"/>
+                                <ColumnDefinition Width="110"/>
+                                <ColumnDefinition Width="110"/>
+
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="120" />
+                            </Grid.RowDefinitions>
+                            <Frame Grid.Column="0" Grid.Row="0" BorderColor="Red" >
+                                <StackLayout>
+                                    <Label
+                                        Text="Total Ec"
+                                        TextColor="Red"
+                                        FontAttributes="Bold"
+                                        HorizontalOptions="Center"
+                                        />
+                                    <Button
+                                        BackgroundColor="Red"
+                                        TextColor="White"
+                                        FontAttributes="Bold"
+                                        Text="0 $"
+                                        />
+                                </StackLayout>
+                            </Frame>
+                                 <Frame Grid.Column="1" Grid.Row="0" BorderColor="Red" >
+                                     <StackLayout>
+                                    <Label
+                                        Text="Reshnung"
+                                        TextColor="Red"
+                                        FontAttributes="Bold"
+                                        HorizontalOptions="Center"
+                                        />
+                                    <Button
+                                        BackgroundColor="Red"
+                                        TextColor="White"
+                                        FontAttributes="Bold"
+                                        Text="0 $"
+                                        />
+                                </StackLayout>
+                            </Frame>
+                                 <Frame Grid.Column="2" Grid.Row="0" BorderColor="Red" >
+                                     <StackLayout>
+                                    <Label
+                                        Text="Total Bar"
+                                        TextColor="Red"
+                                        FontAttributes="Bold"
+                                        HorizontalOptions="Center"
+                                        />
+                                    <Button
+                                        BackgroundColor="Red"
+                                        TextColor="White"
+                                        FontAttributes="Bold"
+                                        Text="0 $"
+                                        />
+                                </StackLayout>
+                            </Frame>
+                        </Grid>
+                    </StackLayout>
+
+
+                </StackLayout>
+                </ScrollView>
+               
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

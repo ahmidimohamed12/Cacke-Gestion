@@ -31,6 +31,7 @@ namespace cacke.helprs
                 if (get_List_user()[i].username == log && get_List_user()[i].userpass == pas)
                 {
                     us = get_List_user()[i];
+                    break;
                 }
             }
             return us;

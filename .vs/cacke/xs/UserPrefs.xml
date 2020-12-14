@@ -1,27 +1,32 @@
 ﻿<Properties StartupConfiguration="{61D41A38-9BB7-4347-9E33-BF1313860931}|Default" HasHotReloadOverlayBeenDismissed="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="cacke/Logins.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="cacke/page_Home.xaml">
     <Files>
       <File FileName="cacke/List_Users.xaml" Line="9" Column="47" />
       <File FileName="cacke/App.xaml.cs" />
-      <File FileName="cacke/List_Users.xaml.cs" />
-      <File FileName="cacke/MainPage.xaml" />
-      <File FileName="cacke/MainPage.xaml.cs" />
+      <File FileName="cacke/List_Users.xaml.cs" Line="33" Column="73" />
+      <File FileName="cacke/MainPage.xaml" Line="25" Column="60" />
+      <File FileName="cacke/MainPage.xaml.cs" Line="56" Column="2" />
       <File FileName="cacke.Android/Resources/values/styles.xml" />
-      <File FileName="cacke/Logins.xaml.cs" />
-      <File FileName="cacke/helprs/Helpers_api.cs" />
+      <File FileName="cacke/Logins.xaml.cs" Line="29" Column="14" />
+      <File FileName="cacke/helprs/Helpers_api.cs" Line="38" Column="1" />
       <File FileName="cacke/Logins.xaml" Line="41" Column="1" />
+      <File FileName="cacke/Models/user.cs" Line="26" Column="1" />
+      <File FileName="cacke/MyMasterDetailPage.xaml.cs" Line="23" Column="68" />
+      <File FileName="cacke/MyMasterDetailPageDetail.xaml.cs" Line="1" Column="1" />
+      <File FileName="cacke/MyMasterDetailPageMaster.xaml.cs" Line="25" Column="13" />
+      <File FileName="cacke/MyMasterDetailPageMaster.xaml" Line="1" Column="1" />
+      <File FileName="cacke/MyMasterDetailPageDetail.xaml" Line="1" Column="1" />
+      <File FileName="cacke/MyMasterDetailPageMenuItem.cs" Line="1" Column="1" />
+      <File FileName="cacke/MyMasterDetailPage.xaml" Line="9" Column="24" />
+      <File FileName="cacke/page_Home.xaml" Line="1" Column="1" />
+      <File FileName="cacke/page_Home.xaml.cs" Line="12" Column="35" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="cacke" expanded="True">
             <Node name="cacke" expanded="True">
-              <Node name="helprs" expanded="True" />
-              <Node name="Models" expanded="True" />
-              <Node name="App.xaml" expanded="True" />
-              <Node name="List_Users.xaml" expanded="True" />
-              <Node name="Logins.xaml" expanded="True" selected="True" />
-              <Node name="MainPage.xaml" expanded="True" />
+              <Node name="page_Home.xaml" expanded="True" selected="True" />
             </Node>
             <Node name="cacke.Android" expanded="True">
               <Node name="Resources" expanded="True">

@@ -36,3 +36,4 @@
 /Users/ahmidimohamed/Projects/cacke/cackes_app/cacke/obj/Debug/netstandard2.0/ref/cacke.dll
 /Users/ahmidimohamed/Projects/cacke/cackes_app/cacke/obj/Debug/netstandard2.0/cacke.pdb
 /Users/ahmidimohamed/Projects/cacke/cackes_app/cacke/obj/Debug/netstandard2.0/cacke.csprojAssemblyReference.cache
+/Users/ahmidimohamed/Projects/cacke/cackes_app/cacke/obj/Debug/netstandard2.0/page_Home.xaml.g.cs

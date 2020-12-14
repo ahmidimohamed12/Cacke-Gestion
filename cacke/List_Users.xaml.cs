@@ -34,10 +34,10 @@ namespace cacke
 
 
             int p = f.Count;
-            name1.Text = f[0].firstname;
+            //name1.Text = f[0].firstname;
 
 
-            oncl(fr1, btn_click);
+//            oncl(fr1, btn_click);
 
 
 

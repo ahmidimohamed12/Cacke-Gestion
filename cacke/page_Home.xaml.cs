@@ -1,19 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xamarin.Forms;
-using Microcharts.Forms;
-using SkiaSharp.Views;
 using SkiaSharp;
 using Entry = Microcharts.Entry;
 using Microcharts;
 
 namespace cacke
 {
-    public partial class MainPage : ContentPage
+    public partial class page_Home : ContentPage
     {
 
         List<Entry> entries = new List<Entry>
@@ -43,13 +37,14 @@ namespace cacke
                 ValueLabel = "222"
             }
             };
-   
-        public MainPage()
+
+        public page_Home()
         {
             InitializeComponent();
 
-            chart1.Chart = new RadialGaugeChart() { Entries = entries};
-            chart2.Chart = new LineChart() { Entries = entries }; 
+            chart1.Chart = new RadialGaugeChart() { Entries = entries };
+            chart2.Chart = new LineChart() { Entries = entries };
+
         }
     }
 }

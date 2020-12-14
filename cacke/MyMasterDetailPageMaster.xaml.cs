@@ -33,13 +33,11 @@ namespace cacke
             {
                 MenuItems = new ObservableCollection<MyMasterDetailPageMenuItem>(new[]
                 {
-                    new MyMasterDetailPageMenuItem { Id = 0, Title = "Profile" },
-                    new MyMasterDetailPageMenuItem { Id = 1, Title = "0000000" },
-                    new MyMasterDetailPageMenuItem { Id = 2, Title = "List Benutzer" },
-                    new MyMasterDetailPageMenuItem { Id = 3, Title = "List Website" },
-                    new MyMasterDetailPageMenuItem { Id = 4, Title = "List Monteur" },
-                    new MyMasterDetailPageMenuItem { Id = 5, Title = "Logout" },
-                    new MyMasterDetailPageMenuItem { Id = 5, Title = "" }
+                    new MyMasterDetailPageMenuItem { Id = 0, Title = "Home" },
+                    new MyMasterDetailPageMenuItem { Id = 1, Title = "List Benutzer" },
+                    new MyMasterDetailPageMenuItem { Id = 2, Title = "List Website" },
+                    new MyMasterDetailPageMenuItem { Id = 3, Title = "List Monteur" },
+                    new MyMasterDetailPageMenuItem { Id = 4, Title = "Logout" }
                 });
             }
 

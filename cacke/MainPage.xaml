@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ContentPage xmlns:chart="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms" BackgroundColor="Red" xmlns:image_circle="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="cacke.MainPage">
     <StackLayout Orientation="Vertical">
-            <StackLayout VerticalOptions="FillAndExpand"  >
+
+            <StackLayout VerticalOptions="Fill"  >
                 <StackLayout Orientation="Horizontal">
                     <Label
                         Text="Back"
@@ -13,8 +14,6 @@
                         FontSize="19"
                         x:Name="lblback_listuser"
                         />
-                   
-
 
                 </StackLayout>
                  <Frame Margin="0,30,0,0" VerticalOptions="FillAndExpand"  BackgroundColor="White" CornerRadius="30" >
@@ -38,13 +37,11 @@
                                 />
                                 
                             </StackLayout>
-                                
                             
                          <chart:ChartView
                              x:Name="chart1"
                              HeightRequest="200"
                              />
-
 
                             <Label
                                     Text="Status"
@@ -55,15 +52,14 @@
                                     FontSize="19"
                                 />
 
-
                             <chart:ChartView
                                 x:Name="chart2"
                                 HeightRequest="150"
                                 />
                     </StackLayout>
                      </ScrollView>
-                     
                  </Frame>
             </StackLayout>
+         
     </StackLayout>
 </ContentPage>
