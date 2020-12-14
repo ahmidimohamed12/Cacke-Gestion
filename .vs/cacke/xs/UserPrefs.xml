@@ -1,14 +1,19 @@
 ﻿<Properties StartupConfiguration="{61D41A38-9BB7-4347-9E33-BF1313860931}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="cacke/List_Users.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="cacke/List_Users.xaml.cs">
     <Files>
-      <File FileName="cacke/List_Users.xaml" Line="21" Column="74" />
+      <File FileName="cacke/List_Users.xaml" Line="9" Column="47" />
+      <File FileName="cacke/App.xaml.cs" Line="13" Column="38" />
+      <File FileName="cacke/List_Users.xaml.cs" Line="22" Column="50" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="cacke" expanded="True">
             <Node name="cacke" expanded="True">
-              <Node name="List_Users.xaml" selected="True" />
+              <Node name="App.xaml" expanded="True" />
+              <Node name="List_Users.xaml" expanded="True">
+                <Node name="List_Users.xaml.cs" selected="True" />
+              </Node>
             </Node>
             <Node name="cacke.Android" expanded="True" />
           </Node>
@@ -16,7 +21,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.cacke.Android PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.ItemProperties.cacke.Android TriggeredFromHotReload="False" PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v9.0": {
-      "Microcharts.Forms/0.6.1": {
+      "Microcharts.Forms/0.6.2": {
         "type": "package",
         "dependencies": {
           "SkiaSharp.Views.Forms": "1.59.1"
@@ -873,7 +873,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Microcharts.Forms": "0.6.1",
+          "Microcharts.Forms": "0.6.2",
           "Newtonsoft.Json": "12.0.3",
           "Xam.Plugins.Forms.ImageCircle": "3.0.0.4",
           "Xamarin.Essentials": "1.5.3.2",
@@ -889,15 +889,15 @@
     }
   },
   "libraries": {
-    "Microcharts.Forms/0.6.1": {
-      "sha512": "lZmOwQ9SWhlNYTq1GCcHJF9yFRxkZeRpsQzUVJLQFlxhXm90NXCpgS7MhEZzwPw1+2+8ZjdoXFyHHsqNO9rEMg==",
+    "Microcharts.Forms/0.6.2": {
+      "sha512": "ZM5nmSj7NocE3R2hXyob+dqGOQMt9/1MxPV8I3aU6/cvAK4M16zkFkzYLdrGzQCewfEjw/OTs8RULRTXQcn3Ow==",
       "type": "package",
-      "path": "microcharts.forms/0.6.1",
+      "path": "microcharts.forms/0.6.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/portable-net45+win8+wpa81+wp8/Microcharts.Forms.dll",
-        "microcharts.forms.0.6.1.nupkg.sha512",
+        "microcharts.forms.0.6.2.nupkg.sha512",
         "microcharts.forms.nuspec"
       ]
     },
@@ -2155,7 +2155,7 @@
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v9.0": [
-      "Microcharts.Forms >= 0.6.1",
+      "Microcharts.Forms >= 0.6.2",
       "Newtonsoft.Json >= 12.0.3",
       "Xam.Plugins.Forms.ImageCircle >= 3.0.0.4",
       "Xamarin.Essentials >= 1.5.3.2",
@@ -2200,7 +2200,7 @@
         "dependencies": {
           "Microcharts.Forms": {
             "target": "Package",
-            "version": "[0.6.1, )"
+            "version": "[0.6.2, )"
           },
           "Newtonsoft.Json": {
             "target": "Package",

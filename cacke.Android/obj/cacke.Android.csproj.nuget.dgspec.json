@@ -38,7 +38,7 @@
           "dependencies": {
             "Microcharts.Forms": {
               "target": "Package",
-              "version": "[0.6.1, )"
+              "version": "[0.6.2, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -96,7 +96,7 @@
           "dependencies": {
             "Microcharts.Forms": {
               "target": "Package",
-              "version": "[0.6.1, )"
+              "version": "[0.6.2, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",

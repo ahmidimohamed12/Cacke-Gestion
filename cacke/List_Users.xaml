@@ -4,12 +4,8 @@
         <StackLayout>
             <StackLayout BackgroundColor="Red" HeightRequest="100" Orientation="Horizontal" >
                 
-
-             
             </StackLayout>
             <ScrollView>
-
-          
             <Frame VerticalOptions="FillAndExpand" BackgroundColor="White"  CornerRadius="30" >
                     <StackLayout  VerticalOptions="FillAndExpand">
                                     <Grid>
@@ -152,7 +148,6 @@
                                                     />
                                             </StackLayout>
                                         </Frame>
-
                                         <Frame Grid.Column="1" Grid.Row="8" >
                                             <StackLayout>
                                                 <Image
@@ -187,6 +182,5 @@
             </Frame>
               </ScrollView>
         </StackLayout>
-        
     </ContentPage.Content>
 </ContentPage>

@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "/sO2XYllsMVrnaTw0CrJemvgEGrpw2YE25bqt74SVqbvd2AXwlGUjHMgklH13/1rPHQUIZKIR48sTLM+X3933Q==",
+  "dgSpecHash": "GbLlESCTdKSnkVWA+0nVR+KPgJ8c6TcfB5AVHtJ0ku/ne7eJPYKqjWgKKY/cXsywcWDlxfO1FCFnaHxu3Yo9+A==",
   "success": true,
   "projectFilePath": "/Users/ahmidimohamed/Projects/cacke/cackes_app/cacke.Android/cacke.Android.csproj",
   "expectedPackageFiles": [
-    "/Users/ahmidimohamed/.nuget/packages/microcharts.forms/0.6.1/microcharts.forms.0.6.1.nupkg.sha512",
+    "/Users/ahmidimohamed/.nuget/packages/microcharts.forms/0.6.2/microcharts.forms.0.6.2.nupkg.sha512",
     "/Users/ahmidimohamed/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
     "/Users/ahmidimohamed/.nuget/packages/skiasharp/1.59.1/skiasharp.1.59.1.nupkg.sha512",
     "/Users/ahmidimohamed/.nuget/packages/skiasharp.views/1.59.1/skiasharp.views.1.59.1.nupkg.sha512",

@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ZwUSGq2wPiRdUaz+1Ogqk1WLh+pt2X5lDvI8a83m8K+NAFecWWaDgXpUYu5ryGTb46wnt6CGtF58qDwEEYAvFw==",
+  "dgSpecHash": "BU+gddhwumo4A1WfbQ0sK7f/B4OhWdnh4uKj+SKZjf6wvjVReOMB+Mf/sReJ1UGKWEqBQBbK/q+ZVTE2sTANkQ==",
   "success": true,
   "projectFilePath": "/Users/ahmidimohamed/Projects/cacke/cackes_app/cacke/cacke.csproj",
   "expectedPackageFiles": [
-    "/Users/ahmidimohamed/.nuget/packages/microcharts.forms/0.6.1/microcharts.forms.0.6.1.nupkg.sha512",
+    "/Users/ahmidimohamed/.nuget/packages/microcharts.forms/0.6.2/microcharts.forms.0.6.2.nupkg.sha512",
     "/Users/ahmidimohamed/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/Users/ahmidimohamed/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
     "/Users/ahmidimohamed/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
@@ -20,7 +20,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microcharts.Forms 0.6.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microcharts.Forms 0.6.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microcharts.Forms",
       "targetGraphs": [
         ".NETStandard,Version=v2.0"

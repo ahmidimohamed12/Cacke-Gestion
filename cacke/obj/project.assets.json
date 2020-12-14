@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
-      "Microcharts.Forms/0.6.1": {
+      "Microcharts.Forms/0.6.2": {
         "type": "package",
         "dependencies": {
           "SkiaSharp.Views.Forms": "1.59.1"
@@ -136,15 +136,15 @@
     }
   },
   "libraries": {
-    "Microcharts.Forms/0.6.1": {
-      "sha512": "lZmOwQ9SWhlNYTq1GCcHJF9yFRxkZeRpsQzUVJLQFlxhXm90NXCpgS7MhEZzwPw1+2+8ZjdoXFyHHsqNO9rEMg==",
+    "Microcharts.Forms/0.6.2": {
+      "sha512": "ZM5nmSj7NocE3R2hXyob+dqGOQMt9/1MxPV8I3aU6/cvAK4M16zkFkzYLdrGzQCewfEjw/OTs8RULRTXQcn3Ow==",
       "type": "package",
-      "path": "microcharts.forms/0.6.1",
+      "path": "microcharts.forms/0.6.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/portable-net45+win8+wpa81+wp8/Microcharts.Forms.dll",
-        "microcharts.forms.0.6.1.nupkg.sha512",
+        "microcharts.forms.0.6.2.nupkg.sha512",
         "microcharts.forms.nuspec"
       ]
     },
@@ -816,7 +816,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "Microcharts.Forms >= 0.6.1",
+      "Microcharts.Forms >= 0.6.2",
       "NETStandard.Library >= 2.0.3",
       "Newtonsoft.Json >= 12.0.3",
       "Xam.Plugins.Forms.ImageCircle >= 3.0.0.4",
@@ -863,7 +863,7 @@
         "dependencies": {
           "Microcharts.Forms": {
             "target": "Package",
-            "version": "[0.6.1, )"
+            "version": "[0.6.2, )"
           },
           "NETStandard.Library": {
             "suppressParent": "All",
@@ -907,7 +907,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microcharts.Forms 0.6.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microcharts.Forms 0.6.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microcharts.Forms",
       "targetGraphs": [
         ".NETStandard,Version=v2.0"

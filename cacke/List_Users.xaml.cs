@@ -4,6 +4,8 @@ using System.Net.Http;
 using Xamarin.Forms;
 using Newtonsoft.Json;
 using cacke.Models;
+using SkiaSharp;
+using Microcharts.Forms;
 
 
 namespace cacke
@@ -34,6 +36,28 @@ namespace cacke
             int p = f.Count;
             name1.Text = f[0].firstname;
 
+
+
+            TapGestureRecognizer ev = new TapGestureRecognizer();
+
+
+
+
+        }
+
+
+
+        public TapGestureRecognizer  oncl(Frame sender,EventHandler e)
+        {
+            TapGestureRecognizer ef = new TapGestureRecognizer();
+            ef.Tapped += e;
+            sender.GestureRecognizers.Add(ef);
+            return ef;
+        }
+
+
+        public void btn_click(object sender,EventArgs e)
+        {
 
         }
     }
