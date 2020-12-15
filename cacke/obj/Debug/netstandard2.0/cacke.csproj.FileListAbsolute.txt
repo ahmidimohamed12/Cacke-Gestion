@@ -37,3 +37,4 @@
 /Users/ahmidimohamed/Projects/cacke/cackes_app/cacke/obj/Debug/netstandard2.0/cacke.pdb
 /Users/ahmidimohamed/Projects/cacke/cackes_app/cacke/obj/Debug/netstandard2.0/cacke.csprojAssemblyReference.cache
 /Users/ahmidimohamed/Projects/cacke/cackes_app/cacke/obj/Debug/netstandard2.0/page_Home.xaml.g.cs
+/Users/ahmidimohamed/Projects/cacke/cackes_app/cacke/obj/Debug/netstandard2.0/MyPage_monteurs.xaml.g.cs

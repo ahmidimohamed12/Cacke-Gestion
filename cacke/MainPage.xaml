@@ -28,7 +28,7 @@
                                     />
                                 <Label
                                     
-                                    Text="Driss"
+                                    x:Name="txtname"
                                     HorizontalOptions="StartAndExpand"
                                     TextColor="Black"
                                     Margin="20,25,20,20"
@@ -40,7 +40,7 @@
                             
                          <chart:ChartView
                              x:Name="chart1"
-                             HeightRequest="200"
+                             HeightRequest="250"
                              />
 
                             <Label

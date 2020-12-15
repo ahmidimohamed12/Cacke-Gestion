@@ -26,14 +26,16 @@ namespace cacke
 
             var f = JsonConvert.DeserializeObject<List<user>>(response);
 
+            ls.SeparatorColor = Color.Red;
+            ls.RefreshControlColor = Color.Red;
+            
 
-            int p = f.Count;
 
+            //binding
             ls.ItemsSource = f.ToList<user>();
 
-
+            //event
             ls.ItemSelected += list_Selected;
-            // var employee = JsonConvert.DeserializeObject<List<employee>>(response);
         }
 
 

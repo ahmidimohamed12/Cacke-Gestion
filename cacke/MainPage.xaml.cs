@@ -42,14 +42,24 @@ namespace cacke
                 Label = "Abgeshlosen",
                 ValueLabel = "222"
             }
-            };
-   
+        };
+
         public MainPage()
         {
             InitializeComponent();
 
             chart1.Chart = new RadialGaugeChart() { Entries = entries};
-            chart2.Chart = new LineChart() { Entries = entries }; 
+            chart2.Chart = new LineChart() { Entries = entries };
+
+            txtname.Text = List_Users.users_main.firstname;
+
+            TapGestureRecognizer bn = new TapGestureRecognizer();
+            bn.Tapped += (s, e) =>
+            {
+                Navigation.PopModalAsync();
+            };
+
+            lblback_listuser.GestureRecognizers.Add(bn);
         }
     }
 }

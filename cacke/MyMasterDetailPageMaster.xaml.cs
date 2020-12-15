@@ -36,8 +36,8 @@ namespace cacke
                     new MyMasterDetailPageMenuItem { Id = 0, Title = "Home" ,TargetType =typeof(page_Home)},
                     new MyMasterDetailPageMenuItem { Id = 1, Title = "List Benutzer",TargetType = typeof(List_Users) },
                     new MyMasterDetailPageMenuItem { Id = 2, Title = "List Website",/*TargetType = typeof()*/ },
-                    new MyMasterDetailPageMenuItem { Id = 3, Title = "List Monteur",/*TargetType = typeof()*/},
-                    new MyMasterDetailPageMenuItem { Id = 4, Title = "Logout",/*TargetType = typeof()*/ }
+                    new MyMasterDetailPageMenuItem { Id = 3, Title = "List Monteur",TargetType = typeof(MyPage_monteurs)},
+                    new MyMasterDetailPageMenuItem { Id = 4, Title = "Logout",TargetType = typeof(Logins) }
                 });
             }
 

@@ -1,15 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage BackgroundColor="Red" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="cacke.List_Users">
+<ContentPage BackgroundColor="Red" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="cacke.MyPage_monteurs">
     <ContentPage.Content>
         <StackLayout>
-            <Frame  VerticalOptions="FillAndExpand" BackgroundColor="White"  CornerRadius="30" >
+              <Frame  VerticalOptions="FillAndExpand" BackgroundColor="White"  CornerRadius="30" >
                     <StackLayout  VerticalOptions="FillAndExpand">
                                   <ListView  HasUnevenRows="True" x:Name="ls">
                                       <ListView.ItemTemplate  >
-                                          
                                           <DataTemplate  >
                                               <ViewCell >
-                                                <StackLayout HeightRequest="80"
+                                              <!--  <StackLayout HeightRequest="80"
                                                              Orientation="Horizontal" >
                                                   <Label Text="{Binding firstname}"
                                                          TextColor="Black"
@@ -18,7 +17,6 @@
                                                          Margin="20,0,0,0"
                                                          VerticalOptions="Center"
                                                          />
-                                                    
                                                     <Label
                                                         VerticalOptions="Center"
                                                         Margin="30,0,0,0"
@@ -27,9 +25,8 @@
                                                         FontAttributes="Bold"
                                                         FontSize="20"
                                                         />
-                                              </StackLayout>
+                                              </StackLayout>-->
                                               </ViewCell>
-                                              
                                           </DataTemplate>
                                       </ListView.ItemTemplate>
                                   </ListView>
