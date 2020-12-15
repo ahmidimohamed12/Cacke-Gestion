@@ -22,6 +22,55 @@ namespace cacke.helprs
             return f;
         }
 
+
+        public static List<> get_allworks()
+        {
+
+        }
+
+
+
+        public static List<> get_allwebsite()
+        {
+
+        }
+
+
+        public static List<>  get_allmonteur()
+        {
+
+        }
+
+
+
+        //1
+
+        public user get_user(int id)
+        {
+
+        }
+
+        public website get_website(int id)
+        {
+
+        }
+
+        public monteur get_monteur(int id)
+        {
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
         public static user loggin_test(string log,string pas)
         {
             user us = new user();

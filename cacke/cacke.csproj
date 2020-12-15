@@ -21,4 +21,9 @@
     <Folder Include="Models\" />
     <Folder Include="helprs\" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Update="MyPage_website.xaml.cs">
+      <DependentUpon>MyPage_website.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
 </Project>

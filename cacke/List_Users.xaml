@@ -11,7 +11,7 @@
                                               <ViewCell >
                                                 <StackLayout HeightRequest="80"
                                                              Orientation="Horizontal" >
-                                                  <Label Text="{Binding firstname}"
+                                                  <Label Text="{Binding username}"
                                                          TextColor="Black"
                                                          FontAttributes="Bold"
                                                          FontSize="20"
