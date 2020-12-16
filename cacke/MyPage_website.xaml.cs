@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using cacke.helprs;
+using cacke.Models;
 using Xamarin.Forms;
+using System.Linq;
 
 namespace cacke
 {
@@ -10,6 +12,14 @@ namespace cacke
         public MyPage_website()
         {
             InitializeComponent();
+
+
+
+            var ls = Helpers_api.get_allwebsite();
+
+            lis.ItemsSource = ls.ToList();
+
         }
+
     }
 }

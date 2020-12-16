@@ -5,7 +5,26 @@
             <Frame VerticalOptions="FillAndExpand" CornerRadius="60" HorizontalOptions="Fill" >
                 <StackLayout>
                     <StackLayout>
-                        
+                        <ListView x:Name="lis" >
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <StackLayout  Orientation="Horizontal">
+                                            <Label
+                                                Text="{Binding  nom}"
+                                                TextColor="Black"
+                                                FontAttributes="Bold"
+                                                />
+                                            <Label
+                                                Text="{Binding pour}"
+                                                TextColor="Black"
+                                                FontAttributes="Bold"
+                                                />
+                                        </StackLayout>
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
                     </StackLayout>
                 </StackLayout>
             </Frame>

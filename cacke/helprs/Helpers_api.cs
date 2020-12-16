@@ -23,13 +23,26 @@ namespace cacke.helprs
         }
 
 
-        public static List<> get_allworks()
+        public static List<works> get_allworks()
         {
+            var httpClient = new HttpClient();
+            var response = httpClient.GetStringAsync("http://api1337.1337center.de/api/works").Result;
+            var f = JsonConvert.DeserializeObject<List<works>>(response);
+            return f;
+        }
 
+        public static List<website> get_allwebsite()
+        {
+            var httpClient = new HttpClient();
+            var response = httpClient.GetStringAsync("http://api1337.1337center.de/api/website").Result;
+            var f = JsonConvert.DeserializeObject<List<website>>(response);
+            return f;
         }
 
 
 
+
+        /*
         public static List<> get_allwebsite()
         {
 
@@ -63,7 +76,7 @@ namespace cacke.helprs
 
 
 
-
+        */
 
 
 

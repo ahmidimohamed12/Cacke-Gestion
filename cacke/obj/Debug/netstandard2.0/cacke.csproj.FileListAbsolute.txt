@@ -17,6 +17,11 @@
 /Users/ahmidimohamed/Projects/cacke/cacke/obj/Debug/netstandard2.0/cacke.dll
 /Users/ahmidimohamed/Projects/cacke/cacke/obj/Debug/netstandard2.0/ref/cacke.dll
 /Users/ahmidimohamed/Projects/cacke/cacke/obj/Debug/netstandard2.0/cacke.pdb
+/Users/ahmidimohamed/Projects/cacke/cackes_app/cacke/bin/Debug/netstandard2.0/cacke.deps.json
+/Users/ahmidimohamed/Projects/cacke/cackes_app/cacke/bin/Debug/netstandard2.0/cacke.dll
+/Users/ahmidimohamed/Projects/cacke/cackes_app/cacke/bin/Debug/netstandard2.0/ref/cacke.dll
+/Users/ahmidimohamed/Projects/cacke/cackes_app/cacke/bin/Debug/netstandard2.0/cacke.pdb
+/Users/ahmidimohamed/Projects/cacke/cackes_app/cacke/obj/Debug/netstandard2.0/cacke.csprojAssemblyReference.cache
 /Users/ahmidimohamed/Projects/cacke/cackes_app/cacke/obj/Debug/netstandard2.0/App.xaml.g.cs
 /Users/ahmidimohamed/Projects/cacke/cackes_app/cacke/obj/Debug/netstandard2.0/List_Users.xaml.g.cs
 /Users/ahmidimohamed/Projects/cacke/cackes_app/cacke/obj/Debug/netstandard2.0/Logins.xaml.g.cs
@@ -30,3 +35,7 @@
 /Users/ahmidimohamed/Projects/cacke/cackes_app/cacke/obj/Debug/netstandard2.0/cacke.AssemblyInfoInputs.cache
 /Users/ahmidimohamed/Projects/cacke/cackes_app/cacke/obj/Debug/netstandard2.0/cacke.AssemblyInfo.cs
 /Users/ahmidimohamed/Projects/cacke/cackes_app/cacke/obj/Debug/netstandard2.0/cacke.csproj.CoreCompileInputs.cache
+/Users/ahmidimohamed/Projects/cacke/cackes_app/cacke/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/ahmidimohamed/Projects/cacke/cackes_app/cacke/obj/Debug/netstandard2.0/cacke.dll
+/Users/ahmidimohamed/Projects/cacke/cackes_app/cacke/obj/Debug/netstandard2.0/ref/cacke.dll
+/Users/ahmidimohamed/Projects/cacke/cackes_app/cacke/obj/Debug/netstandard2.0/cacke.pdb
