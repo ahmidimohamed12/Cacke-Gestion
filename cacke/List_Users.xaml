@@ -21,7 +21,7 @@
                                                     <Label
                                                         VerticalOptions="Center"
                                                         Margin="30,0,0,0"
-                                                        Text="{Binding lastname}"
+                                                        Text="{Binding firstname}"
                                                         TextColor="Black"
                                                         FontAttributes="Bold"
                                                         FontSize="20"
