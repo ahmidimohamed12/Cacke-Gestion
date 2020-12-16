@@ -6,7 +6,6 @@
                     <StackLayout  VerticalOptions="FillAndExpand">
                                   <ListView  HasUnevenRows="True" x:Name="ls">
                                       <ListView.ItemTemplate  >
-                                          
                                           <DataTemplate  >
                                               <ViewCell >
                                                 <StackLayout HeightRequest="80"
@@ -29,7 +28,6 @@
                                                         />
                                               </StackLayout>
                                               </ViewCell>
-                                              
                                           </DataTemplate>
                                       </ListView.ItemTemplate>
                                   </ListView>
